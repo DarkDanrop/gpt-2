@@ -1,0 +1,102 @@
+repo_name: DarkDanrop/gpt-2
+report_id: e8fc4b780c69168f92fce41b83c5b87f
+repo_type: Public
+timestamp: '2023-11-09T12:36:51+00:00'
+requested_by: jackclarksf
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: Jeff Wu
+  last_updated_on: 2019-02-11 04:22:00.000000000 Z
+- name: fire
+  description: A library for automatically generating command line interfaces
+  package_url: https://pypi.org/fire
+  version: 0.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20129/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jeff Wu
+  last_updated_on: 2019-02-11 04:22:00.000000000 Z
+- name: regex
+  description: Alternative regular expression module, to replace re
+  package_url: https://pypi.org/regex
+  version: 2017.4.5
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19923/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Jeff Wu
+  last_updated_on: 2019-02-11 04:22:00.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/requests
+  version: 2.21.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Anders
+  last_updated_on: 2019-03-04 17:57:42.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/tqdm
+  version: 4.31.1
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Anders
+  last_updated_on: 2019-03-04 17:57:42.000000000 Z
